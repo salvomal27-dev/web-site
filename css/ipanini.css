@@ -1,0 +1,40 @@
+#ipanini {
+    margin-top: 100px;
+    
+}
+
+#lepizze {
+    margin-top: -100px;
+}
+
+
+
+.txtipanini {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+.esempio {
+    width: 33%;
+    margin-left: 33%;
+    margin-right: 33%;
+    margin-top: -20px;
+}
+.ppanini {
+    color: white;
+    text-align: center;
+    width: 80%;
+    margin-top: 90px;
+    font-size: 25px;
+}
+.parentesi
+{
+    color: white;
+    font-size: 300px;
+    width: 4%;
+    font-family: "segoe UI Light" , "segoe UI", sans-serif;
+    font-weight: 300;
+    margin-top: -20px;
+    -webkit-text-stroke: 13px black;
+    
+}
