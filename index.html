@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maud</title>
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/galleria.css">
+    <link rel="stylesheet" href="./css/diconodinoi.css">
+    <link rel="stylesheet" href="./css/menuprenota.css">
+    <link rel="stylesheet" href="./css/ipanini.css">
+    <link rel="stylesheet" href="./css/galleriaistagram.css">
+    <link rel="stylesheet" href="./css/menu.css">
+</head>
+<body>
+<div id="header">
+    <div id="pt1" class="header">
+        <div id="social">
+            <div id="imgsocial">
+            <img class="social" src="./img/logofacebook.png" alt="facebook">
+            <img class="social" src="./img/logoistagram.png" alt="istagram">
+            <img class="social" src="./img/logo tiktok.jpg" alt="tiktok">
+            </div>
+        </div>
+        <div id="frase"><h3 id="frase1" style="margin-left: 5px; margin-top: 15px;">Solo Prodotti Di Qualita</h3></div>
+    </div>
+    <div id="fine1"  class="header">
+        <img id="logolocale"   src="./img/logo.png" alt="">
+    
+       
+        <button id="menuatendinalogo" style="background:none; border:none; padding:0;">
+    <img src="./img/menuicon.png" style="width: 50px; margin-top: auto;">
+</button>
+    </div>
+</div>
+
+
+
+<div class="contenuto" id="galleria">
+<div id="galleria1" class="galleria"> <h2 class="TXT">I MIGLIORI <br> PANINI</h2></div>
+<div id="galleria2" class="galleria"> <h2 class="TXT">LE MIGLIORI <br> PIZZE</h2> </div>
+<div id="galleria3" class="galleria"> <h2 class="TXT">I MIGLIORI <br> CLIENTI</h2></div>
+<div id="galleria4" class="galleria"> <h2 class="TXT">IL MIGLIOR <br>LOCALE</h2> </div>
+</div>
+
+<div class="contenuto" id="diconodinoi">
+
+
+
+</div>
+
+
+<div class="contenuto" id="menuprenota">
+    
+    <img class="fotoss1" src="./img/menu.png" alt="">
+    <img class="fotoss2" src="./img/prenota.png" alt="">
+</div>
+
+<DIV class="contenuto" id="ipanini">
+<h2 class="txtipanini">I PANINI</h2>
+<img class="esempio" src="./img/imgpanino.png" alt="">
+
+<div style="display: flex;" >
+    <div><h2 class="parentesi">{</h2></div>
+    <p class="ppanini">"Dal primo morso all’ultimo, <br>
+        i nostri burger uniscono <br> 
+        bontà, freschezza e porzioni abbondanti <br>
+        per un pasto che non delude mai."</p>
+    <div><h2 class="parentesi">}</h2></div>
+</div>
+
+</DIV>
+<DIV class="contenuto" id="lepizze">
+<h2 class="txtipanini">LE PIZZE</h2>
+<img class="esempio" src="./img/lanostrapizza.png" alt="">
+
+<div style="display: flex;" >
+    <div><h2 class="parentesi">{</h2></div>
+    <p class="ppanini">"Se pensi di trovare una pizza 
+        migliore fuori Napoli… ti sbagli! 
+        Al Maud a Siracusa, la nostra pizza 
+        con farina Caputo è leggenda."</p>
+    <div><h2 class="parentesi">}</h2></div>
+</div>
+
+</DIV>
+// effetti nella galleria istagram
+<div class="contenuto" id="galleriaistagram">
+    <div id="txtista">
+        <img id="lgista" src="./img/logoistagram.png" alt="">
+        <h2>seguici su istagram </h2>
+    </div>
+    <div class="postistagram" id="postistagram">
+        <img class="post" src="./postistagram/gli1.png" alt="">
+        <img class="post" src="./postistagram/gli2.png" alt="">
+        <img class="post" src="./postistagram/gli3.png" alt="">
+    </div>
+    <div class="postistagram" id="postistagram2">
+        <img class="post" src="./postistagram/gli4.png" alt="">
+        <img class="post" src="./postistagram/gli5.png" alt="">
+        <img class="post" src="./postistagram/gli6.png" alt="">
+    </div>
+        <div class="postistagram" id="postistagram3">
+        <img class="post" src="./postistagram/gli7.png" alt="">
+        <img class="post" src="./postistagram/gli8.png" alt="">
+        <img class="post" src="./postistagram/gli9.png" alt="">
+    </div>
+        <div class="postistagramnasc"  class="postistagram" id="postistagram4">
+        <img class="post" src="./postistagram/gli10.png" alt="">
+        <img class="post" src="./postistagram/gli11.png" alt="">
+        <img class="post" src="./postistagram/gli12.png" alt="">
+    </div>
+        <div class="postistagramnasc"  class="postistagram" id="postistagram5">
+        <img class="post" src="./postistagram/gli13.png" alt="">
+        <img class="post" src="./postistagram/gli14.png" alt="">
+        <img class="post" src="./postistagram/gli15.png" alt="">
+    </div>
+    <button id="caricaaltro">CARICA ALTRO</button>
+    <script>
+        document.getElementById("caricaaltro").onclick = function() {
+  document.getElementById("postistagram4").classList.add("show");
+  document.getElementById("postistagram5").classList.add("show");
+};
+    </script>
+</div>
+
+<div id="menu">
+  <h3 class="TXTMENU">IL MENU</h3>  
+  <h3 class="TXTMENU">PRENOTA ORA</h3>
+  <h3 class="TXTMENU">TE LO PORTIAMO NOI</h3>
+  <h3 class="TXTMENU">CONTATTI</h3>
+  <h3 class="TXTMENU">EVENTI</h3>
+  <h3 class="TXTMENU">COPYRIGHT</h3>
+  <script>
+  const button = document.getElementById("menuatendinalogo");
+const menu = document.getElementById("menu");
+const contenuti = document.querySelectorAll(".contenuto");
+
+button.addEventListener("click", () => {
+    const isMenuVisible = menu.style.display === "block";
+
+    if (isMenuVisible) {
+        // Nascondi menu e mostra i contenuti
+        menu.style.display = "none";
+        contenuti.forEach(c => c.style.display = "block");
+    } else {
+        // Mostra menu e nascondi i contenuti
+        menu.style.display = "block";
+        contenuti.forEach(c => c.style.display = "none");
+    }
+});
+</script>
+
+</div>
+// EVENTI
+//footer con COPYRIGHT
+</body>
+</html>
